@@ -1,0 +1,48 @@
+input {
+    width: 40%;
+
+}
+
+label {
+    font-family: "tahoma";
+}
+
+input[type=text], input[type=email] {
+    padding: 2px 2px;
+    margin: 8px 0px;
+    border: none;
+    border-bottom: 2px solid purple;
+}
+
+input[type=submit] {
+    background-color: rosybrown;
+
+}
+
+.transitiondiv {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: colorshift;
+    animation-direction: alternate;
+}
+
+.transitiondiv:hover {
+    
+}
+
+@Keyframes colorshift {
+
+    0% {background-color: red; left: 2px; top: 2px;}
+    100% {background-color: royalblue; right: 4s;}
+
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: colorshift;
+    animation-duration: 4s;
+}
