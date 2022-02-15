@@ -1,0 +1,141 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+    
+
+
+.navbar {
+    display: flex;
+    background-color:rgb(26, 26, 26) ;
+    height: 8%;
+    padding: 2px;
+    
+    
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 20px;
+    
+    
+}
+
+.navbar a:hover {
+    background-color: rgb(228, 228, 228);
+    color: black;
+}
+
+.navbar a.active{
+    background-color:#535353;
+    color: white;
+}
+
+.container {
+    background-image: url("images/food.jpg");
+    height: 80%;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    text-align-last: center;
+    position: absolute;
+    color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.header img {
+    border-radius: 50%;
+    padding: 10px;
+    border: solid;
+    transition-duration: 1s;
+    
+}
+
+.header button {
+    background-color: #ddd;
+    color:black;
+    border: none;
+    display: inline-block;
+    padding: 10px 25px;
+    text-align-last: center;
+    cursor: pointer;
+
+}
+
+.header button:hover {
+    background-color: rgb(161, 161, 161);
+    color: white;
+}
+
+.footer {
+    background-color:rgb(26, 26, 26) ;
+    padding: 5px;
+    color: white;
+    text-align-last: center;
+
+}
+
+.fa {
+    font-size: 30px;
+    padding: 20px;
+    text-align-last: center;
+    text-decoration: none;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background-color: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background-color: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background-color: #007bb5;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .navbar.responsive {
+        position: relative;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    
+    
+}
+
+
+
+
+
+
+
